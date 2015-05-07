@@ -11,7 +11,7 @@ body {
 	overflow: hidden;
 }
 .container {
-	width: 325px;
+	width: 600px;
 	margin: 25px auto;
 	overflow: hidden;
 }
@@ -25,32 +25,31 @@ form {
 	background-image: linear-gradient(to bottom, #015196, #00a3de);
  filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#015196, endColorstr=#00a3de);
 	height: auto;
-	padding: 35px 0 25px 25px;
-	width: 350px;
+	padding: 35px 25px 25px;
 	text-align: left;
-	margin: 0
+	margin: 25px 0;
+	border: 1px solid #fff;
 }
 label {
 	display: block;
 	float: left;
 	padding-top: 0;
-	padding-bottom: 2px;
-	margin-left: 10px;
+	padding-bottom: 5px;
+	margin-left: 15px;
 	color: #fff;
-	width: 250px;
-	font: 400 15px/1.2em "Century Gothic", CenturyGothic, Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif
+	font: 400 17px "Century Gothic", CenturyGothic, Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif
 }
 input[type="text"] {
-	padding: 5px;
+	padding: 10px;
 	clear: both;
-	width: 80%;
-	max-width: 285px;
+	width: 500px;
 	border-radius: 0;
 	height: 20px;
-	margin-bottom: 12px;
-	margin-left: 10px;
-	font-size: 15px;
-	border: 1px solid #ccc
+	margin-bottom: 15px;
+	margin-left: 15px;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	text-transform:uppercase;
 }
 button {
 	border: 1px solid #DA682A;
