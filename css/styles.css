@@ -97,7 +97,7 @@ img {
 #cookies {
 	background-color: #fff;
 	padding: 10px 35px;
-	width: 370px;
+	width: 350px;
 	margin: 0 auto;
 	border: 2px solid #666;
 	-webkit-border-radius: 10px;
@@ -105,7 +105,7 @@ img {
 	border-radius: 10px;
 }
 #cookies p {
-	color: #03891b;
+	color: #0EBD2D;
 	text-align: left;
 	font-size: 22px;
 	line-height: 200%;
