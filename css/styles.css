@@ -30,6 +30,9 @@ form {
 	text-align: left;
 	margin: 25px 0;
 	border: 1px solid #fff;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
 }
 label {
 	display: block;
@@ -50,7 +53,7 @@ input[type="text"] {
 	margin-left: 15px;
 	font-size: 16px;
 	border: 1px solid #ccc;
-	text-transform:uppercase;
+	text-transform: uppercase;
 }
 button {
 	border: 1px solid #DA682A;
@@ -87,4 +90,24 @@ a:hover {
 }
 img {
 	border: 1px solid #666666;
+}
+#cookies {
+	background-color: #fff;
+	padding: 10px 35px;
+	width: 390px;
+	margin: 0 auto;
+	border: 2px solid #666;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+#cookies p {
+	color: #03891b;
+	text-align: left;
+	font-size: 22px;
+	line-height: 200%;
+	font-weight: 800;
+}
+#newLink {
+	padding-top: 40px;
 }
