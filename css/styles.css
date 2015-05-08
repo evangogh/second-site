@@ -2,9 +2,10 @@
 /* CSS Document */
 body {
 	background-color: #0c1001;
+	font-family: "Century Gothic", CenturyGothic, Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .wrapper {
-	width: 800px;
+	width: 802px;
 	margin: 25px auto;
 	text-align: center;
 	height: auto;
@@ -37,7 +38,7 @@ label {
 	padding-bottom: 5px;
 	margin-left: 15px;
 	color: #fff;
-	font: 400 17px "Century Gothic", CenturyGothic, Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif
+	font: 400 17px;
 }
 input[type="text"] {
 	padding: 10px;
