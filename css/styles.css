@@ -90,11 +90,14 @@ a:hover {
 }
 img {
 	border: 1px solid #666666;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
 }
 #cookies {
 	background-color: #fff;
 	padding: 10px 35px;
-	width: 390px;
+	width: 370px;
 	margin: 0 auto;
 	border: 2px solid #666;
 	-webkit-border-radius: 10px;
