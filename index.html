@@ -9,5 +9,46 @@
          <p><img src="monkey.jpg"></p>
          <p><a href="http://evangogh.github.io/utm-cookies/page2.html?utm_campaign=secondpage&utm_source=page2&utm_medium=charcoal&utm_term=jawbreaker&utm_content=secondlink" class="secondLink">Go back to original website</a></p>
       </div>
+      <script type="text/javascript">
+         function getQueryParams(qs) {
+         
+             qs = qs.split("+").join(" ");
+         
+             var params = {}, tokens,
+             re = /[?&]?([^=]+)=([^&]*)/g;
+         
+             while (tokens = re.exec(qs)) {
+                 params[decodeURIComponent(tokens[1])] = decodeURIComponent(tokens[2]);
+             }
+         
+             return params;
+         }
+         
+		 function btnClickFunction() {
+			 
+         var query = getQueryParams(document.location.search);
+         
+         for (var key in query) {
+         
+             console.log(key, query[key]);
+         
+             document.cookie = key + "=" + query[key];
+         }
+         
+         var elem = document.getElementById("utm_campaign");
+         var elem2 = document.getElementById("utm_source");
+         var elem3 = document.getElementById("utm_medium");
+         var elem4 = document.getElementById("utm_term");
+         var elem5 = document.getElementById("utm_content");
+         elem.value = query.utm_campaign;
+         elem2.value = query.utm_source;
+         elem3.value = query.utm_medium;
+         elem4.value = query.utm_term;
+         elem5.value = query.utm_content;
+         
+         //window.onload = getQueryParams();
+         
+		 }
+      </script>   
    </body>
 </html>
